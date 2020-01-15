@@ -6,8 +6,9 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"s3acme/structs"
 	"strings"
+
+	"github.com/xtrqt/s3acme/structs"
 
 	"github.com/go-acme/lego/v3/certcrypto"
 	"github.com/go-acme/lego/v3/providers/dns/digitalocean"

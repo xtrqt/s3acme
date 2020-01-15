@@ -1,4 +1,4 @@
-module s3acme
+module github.com/xtrqt/s3acme
 
 go 1.13
 
