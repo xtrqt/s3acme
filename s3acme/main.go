@@ -10,12 +10,12 @@ import (
 
 	"github.com/xtrqt/s3acme/structs"
 
-	"github.com/go-acme/lego/v3/certcrypto"
-	"github.com/go-acme/lego/v3/providers/dns/digitalocean"
+	"github.com/go-acme/lego/v4/certcrypto"
+	"github.com/go-acme/lego/v4/providers/dns/digitalocean"
 
-	"github.com/go-acme/lego/v3/certificate"
-	"github.com/go-acme/lego/v3/lego"
-	"github.com/go-acme/lego/v3/registration"
+	"github.com/go-acme/lego/v4/certificate"
+	"github.com/go-acme/lego/v4/lego"
+	"github.com/go-acme/lego/v4/registration"
 )
 
 func mustEnv(k string) string {

@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/go-acme/lego/v3/registration"
+	"github.com/go-acme/lego/v4/registration"
 )
 
 type MyUser struct {
